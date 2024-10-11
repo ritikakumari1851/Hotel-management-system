@@ -22,7 +22,6 @@ public class Hotel_management_system extends JFrame implements ActionListener{
         ImageIcon i1 = new ImageIcon(getClass().getClassLoader().getResource("icons/three.png"));
         Image scaledImage = i1.getImage().getScaledInstance(1100, 550, Image.SCALE_SMOOTH);  // Scale image
         ImageIcon scaledIcon = new ImageIcon(scaledImage);  // Create a new ImageIcon with the scaled image
-
         // Add image to a JLabel
         JLabel image = new JLabel(scaledIcon);
         image.setBounds(0, 0, 1100, 550);
